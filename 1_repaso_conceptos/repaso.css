@@ -16,11 +16,12 @@
     gap: 2rem;
 }
 .divgene img{
-    width: 80%;
+    width: 50%;
     border-radius: 12px;
 }
 .divb{
-    width: 80%;
+    width: 50%;
+    height: 5%;
     display: flex;
     gap: 2rem;
 }
