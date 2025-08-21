@@ -10,6 +10,12 @@ const audioFoxy = document.querySelector('#audio-foxy');
 const audioGolden = document.querySelector('#audio-golden');
 const audioSilla = document.querySelector('#audio-silla');
 const audioMascara = document.querySelector('#audio-mascara');
+const prev = document.querySelector('.prev');
+const next = document.querySelector('.next');
+const escena1 = document.querySelector('.escena1');
+const escena2 = document.querySelector('.escena2');
+const escena3 = document.querySelector('.escena3');
+let i =1
 
 fox.addEventListener('click', foxitranslate);
 function foxitranslate() {
@@ -52,3 +58,14 @@ function sonidoFondo() {
         audioFondo.pause();
     }
 }
+next.addEventListener('click', function () {
+    if(i=== 1){
+        escena1.classList.add('d-none');
+        escena2.classList.remove('d-none');
+        i++
+    }else if(i=== 2){
+        escena2.classList.add('d-none');
+        escena3.classList.remove('d-none');
+        i++
+    }
+})
