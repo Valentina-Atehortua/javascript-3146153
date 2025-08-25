@@ -1,69 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Carrusel Escenas</title>
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./poster.css">
 </head>
-
 <body>
-  <div class="carrusel">
-    <!-- Botón anterior -->
-    <button class="btn anterior">&#10094;</button>
-
-    <!-- Escenas -->
-    <div class="escenas">
-      <!-- Escena 1 -->
-      <div class="escena activa">
-        <div class="pantalla">
-          <div class="hud">
-            <div class="hud-item">
-              <img src="./assets/MONEDA1.png" alt="Moneda">
-              <span id="contador-monedas">0</span>
-            </div>
-            <div class="hud-item">
-              <img src="./assets/coarazon1.png" alt="Corazón">
-              <span id="contador-corazones">0</span>
-            </div>
+  <div class="comic">
+    <div class="escena1">
+      <div class="sec1">
+        <div class="hud">
+          <div class="hud-item">
+            <img src="./assets/estrella.webp" alt="Moneda">
+            <span id="contador-interacciones">0</span>
           </div>
-          <img class="fondo" src="./assets/fondo2.png" alt="">
-          <img class="bloque1" src="./assets/ladrillos2.png" alt="">
-          <img class="bloque2" src="./assets/ladrillo1.png" alt="">
-          <img class="coin moneda1" src="./assets/moneda1.png" alt="">
-          <img class="coin moneda2" src="./assets/moneda 2.png" alt="">
-          <img class="coin moneda3" src="./assets/moneda 3.png" alt="">
-          <img class="corazon" src="./assets/coarazon1.png" alt="">
         </div>
-      </div>
-
-      <!-- Escena 2  -->
-      <div class="escena">
-        <div class="pantalla">
-
-        </div>
-      </div>
-
-      <!-- Escena 3 -->
-      <div class="escena">
-        <div class="pantalla">
-          
-        </div>
+          <img class="sonido" src="./assets/sonido.png" alt="">
+          <img class="fondo" src="./assets/fondo.webp" alt="">
+          <audio id="audio-fondo">
+                     <source src="./assets/fondo.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="foxy" src="./assets/Foxy.webp" alt="">
+          <audio id="audio-foxy">
+                     <source src="./assets/oxido.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="golden" src="./assets/Golden_Freddy.webp" alt="">
+          <audio id="audio-golden">
+                     <source src="./assets/risa.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="silla" src="./assets/silla.png" alt="">
+          <audio id="audio-silla">
+                     <source src="./assets/silla.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="mascara" src="./assets/macara.webp" alt="">
+          <audio id="audio-mascara">
+                     <source src="./assets/cabeza.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
       </div>
     </div>
-
-    <!-- Botón siguiente -->
-    <button class="btn siguiente">&#10095;</button>
+    <div class="escena2 d-none filter-style-1">
+      <div class="sec2">
+        <div class="hud">
+          <div class="hud-item">
+            <img src="./assets/estrella.webp" alt="Moneda">
+            <span id="contador-interacciones">0</span>
+          </div>
+        </div>
+          <img class="sonido" src="./assets/sonido.png" alt="">
+          <img class="fondo" src="./assets/fondo.webp" alt="">
+          <audio id="audio-fondo">
+                     <source src="./assets/fondo.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="foxy" src="./assets/Foxy.webp" alt="">
+          <audio id="audio-foxy">
+                     <source src="./assets/oxido.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="golden" src="./assets/Golden_Freddy.webp" alt="">
+          <audio id="audio-golden">
+                     <source src="./assets/risa.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="silla" src="./assets/silla.png" alt="">
+          <audio id="audio-silla">
+                     <source src="./assets/silla.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="mascara" src="./assets/macara.webp" alt="">
+          <audio id="audio-mascara">
+                     <source src="./assets/cabeza.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+      </div>
+    </div>
+    <div class="escena3 d-none filter-style-2 ">
+      <div class="sec3">
+        <div class="hud">
+          <div class="hud-item">
+            <img src="./assets/estrella.webp" alt="Moneda">
+            <span id="contador-interacciones">0</span>
+          </div>
+        </div>
+          <img class="sonido" src="./assets/sonido.png" alt="">
+          <img class="fondo" src="./assets/fondo.webp" alt="">
+          <audio id="audio-fondo">
+                     <source src="./assets/fondo.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="foxy" src="./assets/Foxy.webp" alt="">
+          <audio id="audio-foxy">
+                     <source src="./assets/oxido.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="golden" src="./assets/Golden_Freddy.webp" alt="">
+          <audio id="audio-golden">
+                     <source src="./assets/risa.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="silla" src="./assets/silla.png" alt="">
+          <audio id="audio-silla">
+                     <source src="./assets/silla.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+          <img class="mascara" src="./assets/macara.webp" alt="">
+          <audio id="audio-mascara">
+                     <source src="./assets/cabeza.mp3" type="audio/mp3">
+                     Your browser does not support the audio tag.
+                  </audio>
+      </div>
+    </div>
   </div>
-
-  <!-- Miniaturas -->
-  <div class="miniaturas">
-    <img src="./assets/fondo2.png" data-index="0" alt="Miniatura 1">
-    <img src="./assets/fondo3.png" data-index="1" alt="Miniatura 2">
-    <img src="./assets/fondo4.png" data-index="2" alt="Miniatura 3">
+  <div class="navegacion">
+    <button class="prev">Anterior</button>
+    <button class="next">Siguiente</button>
   </div>
-
-  <script src="./app.js"></script>
+    <script src="./poster.js"></script>
+    
 </body>
 </html>
