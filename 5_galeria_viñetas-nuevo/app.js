@@ -60,3 +60,8 @@ btnAnterior.addEventListener("click", function(){
     mostrarEscena(indice)
 })
 
+miniaturas.forEach((minuatura, i)=> {
+    minuatura.addEventListener("click", function (){
+        mostrarEscena(i)
+    })
+});
