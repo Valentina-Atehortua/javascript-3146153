@@ -33,6 +33,12 @@ const btnSiguiente = document.querySelector(".siguiente");
 const btnAnterior = document.querySelector(".anterior");
 const miniaturas = document.querySelectorAll(".miniaturas img");
 let indice = 0
+const audioFondo = document.querySelector('#audio-2');
+const imgsonido = document.querySelector('.sonido');
+const audioFondo3 = document.querySelector('#audio-3');
+const imgsonido3 = document.querySelector('.sonido2');
+const audioFondo4 = document.querySelector('#audio-4');
+const imgsonido4 = document.querySelector('.sonido3');
 
 /* console.log(escenas);
 console.log(escenas[1]); */
@@ -65,3 +71,30 @@ miniaturas.forEach((minuatura, i)=> {
         mostrarEscena(i)
     })
 });
+imgsonido.addEventListener("click", sonidoFondo);
+
+function sonidoFondo() {
+    if (audioFondo.paused) {
+        audioFondo.play();
+    } else {
+        audioFondo.pause();
+    }
+}
+imgsonido3.addEventListener("click", sonidoFondo3);
+
+function sonidoFondo3() {
+    if (audioFondo3.paused) {
+        audioFondo3.play();
+    } else {
+        audioFondo3.pause();
+    }
+}
+imgsonido4.addEventListener("click", sonidoFondo4);
+
+function sonidoFondo4() {
+    if (audioFondo4.paused) {
+        audioFondo4.play();
+    } else {
+        audioFondo4.pause();
+    }
+}

@@ -141,6 +141,11 @@
   min-width: 100%;
   display: none;
 }
+.fondo{
+  width: 750px;
+  height: 500px;
+  object-fit: cover;
+}
 
 .escena.activa {
   display: block;
@@ -190,10 +195,27 @@
   border: 3px solid #FFD700;
 }
 .sonido{
-    position: absolute;
-    top: 1%;
-    left: 2%;
-    width: 5%;
-    z-index: 2;
-    cursor: pointer;
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  width: 5%;
+  z-index: 2;
+  cursor: pointer;
 }
+.sonido2{
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  width: 5%;
+  z-index: 2;
+  cursor: pointer;
+}
+.sonido3{
+  position: absolute;
+  top: 1%;
+  left: 2%;
+  width: 5%;
+  z-index: 2;
+  cursor: pointer;
+}
+
