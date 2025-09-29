@@ -32,3 +32,4 @@
 #Text-boton:hover {
   border: 3px solid #54c75a;
 }
+@media (max-width:760px){}

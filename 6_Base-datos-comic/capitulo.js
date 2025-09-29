@@ -13,12 +13,14 @@ console.log(comic.capitulos[0].nombreCap)
 container.innerHTML = `
    <section class="section3">
         <div class="general">
+         <div class="boton11">
+                 <a id="boto2" href="./comic.html">X</a>
+                </div>
             <div class="imagen1">
                 <img src="${capitulo.imgPortada}" alt="">
                 <p>${capitulo.nombreCap}</p>
                 <div class="boton1">
-
-                    <a id="boton" href="./video.html">Ver comic</a>
+                    <a id="boton" href="./video.html?id=${capitulo.id}">>Reproducir</a>
                 </div>
             </div>
             <div class="general2">
