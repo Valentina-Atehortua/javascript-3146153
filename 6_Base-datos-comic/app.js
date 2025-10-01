@@ -19,5 +19,6 @@ comic.capitulos.forEach(cap => {
         <p>${cap.nombreCap}</p>
     </a>
     `
+    //sirve para insertar información al al padre
     listaCaps.appendChild(div)
 })
