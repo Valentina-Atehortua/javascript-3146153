@@ -1,3 +1,4 @@
+//para identificar los items del item e  id selecionado y añadirle sus propiedades 
 const params = new URLSearchParams(window.location.search)
 const id = parseInt(params.get("id"))
 const container = document.querySelector(".container")
